@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz Page</title>
+
+    <!-- style.css -->
+
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/fontawesome-all.css" >
+    <link rel="stylesheet" href="css/styleA.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+  </head>
+  <body>
+    <header class="top-header">
+      <nav class="navbar header-nav navbar-expand-lg">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </button>
+              
+          </div>
+      </nav>
+  </header>
+
+    <div class="wrapper">
+      <div class="quiz">
+        <div class="quiz_header">
+          <div class="quiz_user">
+            <h4>Choose the correct option ...</h4>
+          </div>
+          <div class="quiz_timer">
+            <span class="time">00:00</span>
+          </div>
+        </div>
+        <div class="quiz_body">
+          <div id="questions">
+          
+
+            <!-- <ul class="option_group">
+              <li class="option">option 1</li>
+              <li class="option">option 2</li>
+              <li class="option">option 3</li>
+              <li class="option">option 4</li>
+            </ul> -->
+          </div>
+
+          <button class="btn-next" onclick="next()">  Next </button>
+        </div>
+      </div>
+    </div>
+<!-- Start Footer -->
+<footer class="footer-box">
+  <div class="container">
+  
+     <div class="row">
+     
+       
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+           <div class="footer_blog full white_fonts">
+                       <h3>Contact us</h3>
+                       <ul class="full">
+                        <li><a href="https://www.google.co.in/maps/place/LPU/@31.2534796,75.7036821,15.75z/data=!4m5!3m4!1s0x391a5f5e9c489cf3:0x4049a5409d53c300!8m2!3d31.255992!4d75.7051435"><img src="images/locate.JPG"><span>LPU phagwara punjab-144001</span></li>
+                          <li><a href="mailto:tks4226@gmail.com"><img src="images/mailme.JPG" ><span>tks4226@gmail.com</span></li>
+                          <li><img src="images/call.JPG"><span>+919876543210</span></li>
+                       </ul>
+                   </div>
+              </div>	 
+        
+     </div>
+  
+  </div>
+</footer>
+<!-- End Footer -->
+
+<div class="footer_bottom">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <p class="crp">© Copyrights 2019 design by 2Shar_ks</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--Scroll to top -->
+<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+
+    <!-- site.js -->
+    <script src="js/site_meme.js"></script>
+
+      <!-- user info -->
+      <script src="js/userInfo.js"></script>
+
+     <!-- timer -->
+     <script src="js/timer.js"></script>
+  </body>
+</html>
